@@ -1,0 +1,37 @@
+.TextField {
+    position: relative;
+
+    input {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 13px;
+        padding-bottom: 0;
+        display: block;
+        width: 250px;
+        border: 1px solid var(--secondary-text-color);
+        border-radius: 8px;
+        color: var(--primary-text-color);
+        height: 48px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    label {
+        color: #999;
+        font-size: 18px;
+        position: absolute;
+        pointer-events: none;
+        left: 14px;
+        top: 16px;
+        transition: 0.2s ease all;
+    }
+
+    input:focus + label,
+    input:valid + label {
+        top: 2px;
+        font-size: 12px;
+        color: var(--nav-color);
+    }
+}

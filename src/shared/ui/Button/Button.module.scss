@@ -1,0 +1,36 @@
+.btn-reset {
+    padding: 0;
+    border: none;
+    font: inherit;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.Button {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.contained {
+    background: var(--primary-bg-color);
+    color: var(--secondary-bg-color);
+    border-radius: 12px;
+    padding: 12px 29px;
+}
+
+.text {
+    color: var(--primary-text-color);
+    padding: 12px 29px;
+}
+
+.start-icon {
+    margin-right: 12px;
+}
+
+.end-icon {
+    margin-left: 12px;
+}

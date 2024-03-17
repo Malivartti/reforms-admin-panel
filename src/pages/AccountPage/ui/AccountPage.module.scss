@@ -1,0 +1,28 @@
+.AccountPage {
+    display: flex;
+}
+
+.input {
+    width: 100%;
+
+    input {
+        width: 100%;
+    }
+}
+
+.part {
+    flex: 1;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+}
+
+.field:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.avatar {
+    margin-bottom: 25px;
+}

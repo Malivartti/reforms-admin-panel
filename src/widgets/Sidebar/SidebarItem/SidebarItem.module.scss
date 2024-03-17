@@ -1,0 +1,19 @@
+.SidebarItem {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.SidebarItem_active {
+    background: rgb(208 208 208 / 20%);
+}
+
+.text {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: var(--header-color);
+}
